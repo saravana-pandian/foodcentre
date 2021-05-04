@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial, Helvetica, sans-serif;
+}
+.wrapper{
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.tbl-full{
+	width: 100%;
+}
+
+
+.tbl-wid{
+	width: 30%;
+}
+
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+	text-align: left;
+}
+
+table tr td{
+	padding: 1%;
+}
+.btn-primary{
+	background-color: #1e90ff;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-primary:hover{
+	background-color: #3742fa;
+}
+
+.btn-danger{
+	background-color: #ff6b81;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-danger:hover{
+	background-color: #ff4757;
+}
+.btn-secondary{
+	background-color: #7bed9f;
+	padding: 1%;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn-secondary:hover{
+	background-color: #3742fa;
+}
+.success{
+	color: #ff4757;
+}
+.error{
+	color: #ff4757;
+}
+
+
+
+/*.........menu........*/
+
+.menu{
+	border-bottom: 1px solid grey;
+	background-color:
+}
+
+.menu ul{
+	list-style-type: none;
+}
+.menu li{
+	display: inline;
+	padding: 1%;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff6b81;
+}
+.menu ul li a:hover{
+	color: #ff4757;
+}
+/*-----------main---------*/
+.main-content{
+	background-color: #f1f2f6;
+	padding: 3% 0;
+}
+
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin:1%;
+	padding: 2%;
+	float: left;
+}
+
+
+/*---------footer--------*/
+.footer{
+	background-color: #ff4757;
+	color: white;
+}
+
+
+/*for login*/
+.login{
+	width: 30%;
+	border: 2px solid grey;
+	margin: 10% auto;
+	padding: 25px 0;
+	background: radial-gradient(#fff,#ffd6d6);
+}
+
+.form-container{
+	background: #fff;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1); 
+	overflow: hidden;
+
+}
+ .btn-1{
+ 	display: inline-block;
+ 	background: #ff523b;
+ 	color: #fff;
+ 	padding: 8px 30px;
+ 	margin: 30px 0;
+ 	border-radius: 30px;
+ 	transition: background 0.5s;
+ }
+ .btn-1:hover{
+ 	background: #563434;
+
+ }
